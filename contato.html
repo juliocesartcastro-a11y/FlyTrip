@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FlyTrip | Contato</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+    <header class="cabecalho">
+
+        <div class="cabecalho-logo">
+            <a class="logo-link" href="index.html">FlyTrip</a>
+        </div>
+
+        <nav class="navegacao">
+
+            <div class="navegacao-item">
+                <a class="navegacao-link" href="index.html">Início</a>
+            </div>
+
+            <div class="navegacao-item">
+                <a class="navegacao-link" href="destinos.html">Destinos</a>
+            </div>
+
+            <div class="navegacao-item">
+                <a class="navegacao-link" href="sobre.html">Sobre</a>
+            </div>
+
+            <div class="navegacao-item">
+                <a class="navegacao-link navegacao-link-ativo" href="contato.html">Contato</a>
+            </div>
+
+        </nav>
+
+        <div class="cabecalho-acoes">
+            <a class="botao botao-secundario" href="contato.html">
+                Entrar em contato
+            </a>
+        </div>
+
+    </header>
+
+
+    <!-- MAIN -->
+    <main class="conteudo-principal">
+
+
+        <!-- INTRODUÇÃO -->
+        <section class="pagina-introducao">
+
+            <div class="pagina-introducao-conteudo">
+
+                <p class="pagina-subtitulo">FALE CONOSCO</p>
+
+                <h1 class="pagina-titulo">
+                    Vamos planejar sua próxima viagem.
+                </h1>
+
+                <p class="pagina-descricao">
+                    Preencha o formulário ou utilize nossos
+                    canais de contato.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTEÚDO -->
+        <section class="contato">
+
+            <div class="contato-container">
+
+
+                <!-- INFORMAÇÕES -->
+                <div class="contato-info">
+
+                    <h2 class="contato-info-titulo">
+                        Informações de contato
+                    </h2>
+
+                    <p class="contato-info-texto">
+                        Entre em contato conosco através dos
+                        canais abaixo.
+                    </p>
+
+                    <div class="contato-item">
+                        <p class="contato-item-titulo">📍 Local</p>
+                        <p class="contato-item-texto">São Paulo - Brasil</p>
+                    </div>
+
+                    <div class="contato-item">
+                        <p class="contato-item-titulo">📧 Email</p>
+                        <p class="contato-item-texto">contato@flytrip.com</p>
+                    </div>
+
+                    <div class="contato-item">
+                        <p class="contato-item-titulo">📞 Telefone</p>
+                        <p class="contato-item-texto">(11) 99999-9999</p>
+                    </div>
+
+                </div>
+
+
+                <!-- FORMULÁRIO -->
+                <div class="contato-formulario">
+
+                    <form class="formulario" id="formulario-contato">
+
+
+                        <div class="form-grupo">
+
+                            <label class="form-label">Nome</label>
+
+                            <input
+                                type="text"
+                                class="form-input"
+                                id="nome"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-grupo">
+
+                            <label class="form-label">Email</label>
+
+                            <input
+                                type="email"
+                                class="form-input"
+                                id="email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-grupo">
+
+                            <label class="form-label">Mensagem</label>
+
+                            <textarea
+                                class="form-textarea"
+                                id="mensagem"
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <div class="form-grupo">
+
+                            <button
+                                type="submit"
+                                class="botao botao-principal"
+                            >
+                                Enviar mensagem
+                            </button>
+
+                        </div>
+
+
+                        <!-- Mensagem JS -->
+                        <p class="form-sucesso" id="mensagem-sucesso">
+                            Mensagem enviada com sucesso!
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="rodape">
+        <div class="rodape-final">
+            <p class="rodape-copyright">
+                © 2026 FlyTrip
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
