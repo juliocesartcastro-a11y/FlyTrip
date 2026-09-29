@@ -650,7 +650,7 @@ img {
     }
     .hero {
         min-height: auto;
-        padding: 60px 5%;
+        padding: 60px 24px;
     }
     .hero-titulo {
         font-size: clamp(36px, 10vw, 45px);
@@ -658,6 +658,17 @@ img {
     }
     .hero-acoes {
         grid-template-columns: 1fr;
+    }
+    .hero-conteudo {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+    .hero-titulo,
+    .hero-texto {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
     }
     .hero-acao,
     .hero-acao .botao {
