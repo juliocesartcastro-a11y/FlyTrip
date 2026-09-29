@@ -650,7 +650,9 @@ img {
     }
     .hero {
         min-height: auto;
+        min-width: 0;
         padding: 60px 24px;
+        grid-template-columns: minmax(0, 1fr);
     }
     .hero-titulo {
         font-size: clamp(36px, 10vw, 45px);
