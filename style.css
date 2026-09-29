@@ -653,7 +653,8 @@ img {
         padding: 60px 5%;
     }
     .hero-titulo {
-        font-size: 45px;
+        font-size: clamp(36px, 10vw, 45px);
+        max-width: 100%;
     }
     .hero-acoes {
         grid-template-columns: 1fr;
