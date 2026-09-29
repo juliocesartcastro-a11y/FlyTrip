@@ -682,7 +682,14 @@ img {
     }
     .hero,
     .hero-conteudo,
-    .hero-imagem {
+    .hero-imagem,
+    .hero-titulo,
+    .hero-texto {
         min-width: 0;
+        max-width: 100%;
+    }
+    .hero-titulo,
+    .hero-texto {
+        overflow-wrap: break-word;
     }
 }
