@@ -61,6 +61,16 @@ O projeto foi desenvolvido utilizando:
   Utilizado para hospedagem e publicação do projeto.
 
 ---
+## 🌐 Acesso ao projeto
+[FlyTrip](flytrip-tau.vercel.app)
+---
+
+---
+## 👥 Integrantes
+- Júlio César 
+- João Gabriel
+- Gabriel Shin
+---
 
 ## 📁 Estrutura do projeto
 
@@ -70,7 +80,6 @@ FlyTrip/
 ├── destinos.html
 ├── sobre.html
 ├── contato.html
-├── login.html
 ├── style.css
 ├── script.js
 └── imagens/
