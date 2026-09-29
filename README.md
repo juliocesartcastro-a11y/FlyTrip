@@ -62,7 +62,7 @@ O projeto foi desenvolvido utilizando:
 
 ---
 ## 🌐 Acesso ao projeto
-[FlyTrip](flytrip-tau.vercel.app)
+[FlyTrip](https://flytrip-tau.vercel.app/)
 ---
 
 ---
