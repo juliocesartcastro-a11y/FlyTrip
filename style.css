@@ -429,7 +429,7 @@ img {
 .pagina-introducao {
     display: grid;
     grid-template-columns: 1fr;
-    min-height: 420px;
+    min-height: 350px;
     align-items: center;
     padding: 80px 8%;
     background-color: var(--azul-fundo);
