@@ -648,6 +648,10 @@ img {
         grid-template-columns: repeat(2, auto);
         gap: 15px 25px;
     }
+    .pagina-introducao {
+        min-height: 300px;
+        padding: 50px 8%;
+    }
     .hero {
         min-height: auto;
         min-width: 0;
